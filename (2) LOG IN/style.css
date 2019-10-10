@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(travell.jpg);
+    background-size: cover;
+    background-position: top;
+    font-family: sans-serif;
+
+}
+
+.loginbox{
+  margin: center;
+  width: 400px;
+  height: 400px;
+  background-color:rgba(255,255,255,0.4);
+  color: #8FBC8F;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 8px 30px;
+  border-radius: 10%;
+  
+ 
+}
+
+.h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    width: 60%;
+    margin: 0;
+    font-weight: bold;
+    padding-top: -5%;
+}
+
+.loginbox input{
+
+    background-color:#FAFAD2;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top:-5% 
+
+}
+
+.loginbox input[type="text"]
+{
+    border-radius: 10px;
+    background-color:#FAFAD2;
+    border: unset;
+    outline: inherit;
+    height: 40px;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.loginbox input[type="submit"]
+{
+  cursor: pointer;
+  background-color: #ADD8E6;
+  color: white;
+  position: center; 
+
+}
+.loginbox input[type="reset"] 
+{ 
+
+  cursor: pointer;
+  background-color:#deb887;
+  color: white;
+  position: center;
+}

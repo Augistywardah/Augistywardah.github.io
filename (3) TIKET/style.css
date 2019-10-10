@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(tik.jpg);
+    background-size: cover;
+    background-position: top;
+    font-family: sans-serif;
+    opacity: 0,6%;
+
+}
+
+ }
+.container-1{
+  width: 200px;
+  vertical-align: middle;
+  white-space: nowrap;
+  left: 80%;
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+}
+
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+.loginbox{
+ margin: center;
+  width: 400px;
+  height: 600px;
+  background-color:rgba(255,255,255,0.8);
+  color: #8FBC8F;
+  top: 55%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 8px 30px;
+  border-radius: 5%;
+}
+
+.h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    width: 60%;
+    margin: 0;
+    font-weight: bold;
+    padding-top: -5%;
+}
+
+.loginbox input{
+
+    background-color:#FAFAD2;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top:-5% 
+
+}
+
+.loginbox input[type="text"]
+{
+    border-radius: 10px;
+    background-color:#FAFAD2;
+    border: unset;
+    outline: inherit;
+    height: 40px;
+    font-size: 16px;
+    text-align: center; 
+}
+
+.loginbox input[type="submit"]
+{
+  cursor: pointer;
+  background-color: #ADD8E6;
+  color: white;
+  position: center; 
+
+}
+.loginbox input[type="reset"] 
+{ 
+
+  cursor: pointer;
+  background-color:#deb887;
+  color: white;
+  position: center;
+}
