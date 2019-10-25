@@ -8,7 +8,7 @@ body{
 * {box-sizing: border-box;}
 
 .bg-img {
-  background-image: url("hmm.JPG");
+  background-image: url("hmm.jpg");
   min-height: 200px;
   min-width: 400px;
   background-position: center;
